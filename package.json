@@ -1,13 +1,13 @@
 {
-  "name": "dsh-monitor",
-  "description": "Persistent watchers that wake the DeepSeek Harness agent when new messages arrive — the harness analog of Claude Code's Monitor tool.",
-  "version": "0.1.1",
+  "name": "@greatyingzi/dsh-monitor",
+  "description": "Persistent watchers that wake the DeepSeek Harness agent — hardened delivery (fork of AbnerAI/dsh-monitor)",
+  "version": "0.2.0",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbnerAI/dsh-monitor.git"
+    "url": "git+https://github.com/greatyingzi/dsh-monitor.git"
   },
   "type": "module",
   "main": "lib/index.js",
@@ -24,7 +24,8 @@
     "lib/types/index.d.ts",
     "cordis.patch.yml",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "license": "MIT",
   "dsh": {
@@ -50,5 +51,6 @@
     "@deepseek-ai/dsh-llm": "^0.1.0-rc.6",
     "@deepseek-ai/dsh-tools": "^0.1.0-rc.6",
     "@deepseek-ai/cordis": "^4.0.1"
-  }
+  },
+  "homepage": "https://github.com/greatyingzi/dsh-monitor"
 }
